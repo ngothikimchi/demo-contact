@@ -1,0 +1,143 @@
+body{
+    background-color: #cdf3d9;
+}
+.titre{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+
+}
+.logo {
+    width:7em;
+    height:7em;
+}
+
+.titre_h1{
+ font-family: 'Grand Hotel', cursive;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+/****STYLE FOR FORM*****/
+form {
+    max-width: 35%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #faece3;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 11px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 90%;
+    background-color: #d6f1f6;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 5px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+  
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+  
+  .button {
+    padding: 10px 12px;
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 0.8em;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 30%;
+    margin-bottom: 10px;
+  }
+
+  .button-green{
+        background-color: #3ac162;
+  }
+
+  .button-red{
+        background-color: red;
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  
+  .form-buttons
+  {
+      text-align: center;
+      margin-top: 1em;
+  }
+  
+  /* STYLE FOR TABLE */
+.styled-table {
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .styled-table thead tr {
+    background-color: #6170f5;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+      padding: 12px 15px;
+  }
+  
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #ffe2e2;
+  }
+  .styled-table tbody tr:nth-of-type(odd) {
+    background-color: #ecbfbf;
+  }
+  
+  .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid  #a6adf1;
+  }
